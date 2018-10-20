@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="home.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+
+<body>
+        
+    <nav class="navbar navbar-expand-lg topNav">
+        <div class="container">
+
+            <button class="btn btn-facebook">
+                <i class="fa fa-facebook">&nbsp</i> Sign In</button>
+
+            <a href="home.html" class="logo">
+                <img src="media/Capture.PNG" alt="">
+            </a>
+            <button type="submit" class="btn fa fa-search"></button>
+
+
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark menubar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="nav">
+
+                <li class="nav-item item">
+                    <a href="project.html" class="nav-link link">MOVIE</a>
+                </li>
+                <li class="nav-item item">
+                    <a href="project.html" class="nav-link link">TV SERIES</a>
+                </li>
+                <li class="nav-item item">
+                    <a href="project.html" class="nav-link link">NEWS</a>
+                </li>
+                <li class="nav-item item">
+                    <a href="project.html" class="nav-link link">FAVORITE</a>
+                </li>
+                <li class="nav-item item">
+                    <a href="project.html" class="nav-link link">ABOUT US</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div  id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner"  style="height: 65vh;">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="media/Spider-Man-Far-From-Home-Teaser-Poster.jpg" alt="First slide"
+                    >
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="media/avenger.jpg" alt="Second slide" >
+            </div>
+            <div class="carousel-item" >
+                <img class="d-block w-100" src="media/venom1.jpg" alt="Third slide" >
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container mt-3  ">
+        <h2><span>The Lastest </span><span class="hightlight">Movie</span></h2>
+        <div class="card-deck mt-3">
+            <div class="card">
+                <img class="card-img-top" src="media/venom1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Venom</h5>
+
+                    <p class="card-text"><small class="text-muted">In theater now</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="media/a2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Avenger : Infinity War</h5>
+
+                    <p class="card-text"><small class="text-muted">2018</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="media/capmavel.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Captain Marvel</h5>
+
+                    <p class="card-text"><small class="text-muted">2019</small></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <span class="float-sm-right mt-3"><a href="/">Show More >></a></span>
+            <br>
+        </div>
+        <hr class="mt-3" width="50%" size="5px" color="white"/>
+        <h2><span class="hightlight">TV </span><span >Show</span></h2>
+        <div class="card-deck mt-3">
+            <div class="card">
+                <img class="card-img-top" src="media/venom1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Venom</h5>
+
+                    <p class="card-text"><small class="text-muted">In theater now</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="media/a2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Avenger : Infinity War</h5>
+
+                    <p class="card-text"><small class="text-muted">2018</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="media/capmavel.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Captain Marvel</h5>
+
+                    <p class="card-text"><small class="text-muted">2019</small></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <span class="float-sm-right mb-mt-3"><a href="/">Show More >></a></span>
+            <br>
+        </div>
+        <hr class="mt-3" width="50%" size="5px" color="white" />
+    </div>
+
+    <footer id="myFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        
+                            <a href="home.html">
+                                <img  src="media/A.jpg" alt="">
+                            </a>
+                        
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                        <h5>Marvel fan film</h5>
+                        <ul>
+                            <li>
+                                <a href="">Nguyễn Quang Trường</a>
+                            </li>
+                            <li>
+                                <a href="" >Bùi Anh Tú</a>
+                            </li>
+                            <li>
+                                <a href="" >Vũ Đức Khải </a>
+                            </li>
+                            <li>
+                                <a href="" >Nguyễn Ngọc Hiếu</a>
+                            </li>
+                            <li>
+                                <a href="" >Supporter: Huỳnh Tuấn Huy</a>
+                            </li>
+        
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12  col-md-4 col-lg-2">
+                        <h5>Source</h5>
+                        <li>
+                                <a href="">Github</a>
+                            </li>
+                            <li>
+                                <a href="" >Movie.org</a>
+                            </li>
+                            <li>
+                                <a href="" >Facebook </a>
+                            </li>
+        
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                        <h5>About Us</h5>
+                        <ul>
+                            <li>
+                                <a href="">3 từ thôi: Trường đẹp trai</a>
+                            </li>
+        
+                            
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+                        <div class="social-networks">
+                            <a href="" class="twitter">
+                                <i class="">
+                                    <img src="media/icons8-facebook-48.png" alt="" width="30px" height="30px">
+                                </i>
+                            </a>
+                            <a href="" class="facebook">
+                                <i class="">
+                                    <img src="media/icons8-twitter-64.png" alt="" width="30px" height="30px">
+                                </i>
+                            </a>
+                            <a href="" class="youtube">
+                                <i class="">
+                                    <img src="media/youtube.png" alt="" width="30px" height="30px">
+                                </i>
+                            </a>
+                        </div>
+                        <a href="feedback.html">
+                            <button type="button" class="btn btn-default">Feedback</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>©2018 Bản quyền thuộc về Team Marvel fan phim </p>
+            </div>
+        
+        </footer>
+</body>
+</html>
